@@ -13,7 +13,7 @@ int main() {
 		printf("%d ", arr[i]);
 
 	}
-	printf("\nmang gai tri tiep theo la :\n") ;
+	printf("\nmang gia tri tiep theo la :\n") ;
 	int min = mang[0];
 	int stt = 0 ;
 	for (int j = 0 ; j < 6  ; j++ ) {
