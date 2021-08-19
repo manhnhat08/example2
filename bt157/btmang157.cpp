@@ -3,7 +3,7 @@
 #define MAX 100
 
 int main() {
-	float n;
+	int n;
 	float a[MAX];
 	float b[MAX];
 	printf("nhap so phan tu\n");
@@ -11,7 +11,7 @@ int main() {
 //	Enter value
 	for(int i = 0; i < n; i++) {
 		printf("\nNhap a[%d]: ", i);
-		scanf("%f", &a[i]);
+		scanf("%d", &a[i]);
 	}
 	float max = a[0];
 	float min = a[0];
